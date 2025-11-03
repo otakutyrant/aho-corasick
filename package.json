@@ -2,7 +2,8 @@
   "name": "@jimtkelly/aho-corasick",
   "version": "1.0.1",
   "description": "An implementation of the Aho-Corasick algorithm in TypeScript.",
-  "main": "index.js",
+  "main": "dist/tire.js",
+  "types": "dist/trie.d.ts",
   "scripts": {
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "build": "tsc --project .",
